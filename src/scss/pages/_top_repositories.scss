@@ -1,0 +1,73 @@
+#top-repositories {
+    background: linear-gradient(to bottom, #EF629F, #EECDA3);
+    background-repeat: no-repeat;
+    background-color: #EECDA3;
+    height: auto;
+    width: 100vw;
+    padding-bottom: 1rem;
+
+    h1, h2 {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    h1 {
+        padding-top: 3rem;
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        margin: 1rem auto 0 auto;
+        max-width: 45%;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .table {
+        margin-top: 4rem;
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0.3rem 0;
+            border-bottom: 2px white solid;
+            margin: 2rem auto 0 auto;
+            max-width: 80%;
+
+            .column {
+                flex: 25%;
+                max-width: 25%;
+                padding: 0 1.5rem;
+
+                h3, p {
+                    color: white;
+                    font-family: sans-serif;
+                }
+
+                p {
+                    margin: 1rem 0;
+                    font-size: 1rem;
+                    overflow-wrap: break-word;
+                }
+            }
+        }
+
+        .pagination {
+            text-align: center;
+            margin-top: 2rem;
+            padding-bottom: 2rem;
+
+            li {
+                display: inline-block;
+                padding: 0 1rem;
+                
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
